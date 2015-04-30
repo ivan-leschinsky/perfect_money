@@ -1,7 +1,3 @@
-module PerfectMoney
-	module Core
-		module Util
-			autoload :HTTP, 'perfect_money/core/util/http'
-		end
-	end
+module PerfectMoney::Core::Util
+  autoload :HTTP, 'perfect_money/core/util/http'
 end
